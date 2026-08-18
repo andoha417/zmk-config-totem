@@ -86,7 +86,7 @@
 
             bindings = <
                &kp Q  &kp W  &kp E                      &kp R                 &kp T            &kp Y          &kp U                      &kp I                     &kp O    &kp P
-               &kp A  &kp S  &kp D                      &mt LSHFT F           &kp G            &kp H          &mt RSHFT J                &kp K                     &kp L    &kp SEMI
+               &kp A  &kp S  &kp D                      &mt LSHFT F           &kp G            &kp H          &mt RIGHT_COMMAND J        &kp K                     &kp L    &kp SEMI
 &kp BACKSLASH  &kp Z  &kp X  &kp C                      &mt LEFT_ALT V        &kp B            &kp N          &mt RIGHT_ALT M            &kp COMMA                 &kp DOT  &kp FSLH  &kp GRAVE
                              &mt LEFT_CONTROL CAPSLOCK  &mt LEFT_COMMAND TAB  &lt NAV SPACE    &lt SYM ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_CONTROL PERIOD
             >;
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp ESC    &bt BT_CLR  &kp K_LOCK    &kp EQUAL  &kp LBRC    &kp RBRC  &kp NUMBER_1              &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-              &kp LSHFT  &kp LEFT    &kp UP        &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4              &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp DEL    &kp PG_UP   &kp DOWN      &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_7              &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
-                                     &kp LEFT_GUI  &trans     &trans      &mo ADJ   &mt RIGHT_SHIFT NUMBER_0  &trans
+              &kp ESC    &bt BT_CLR  &kp K_LOCK    &kp EQUAL  &kp LBRC    &kp RBRC  &kp NUMBER_1              &kp NUMBER_2       &kp NUMBER_3  &kp PLUS
+              &kp LSHFT  &kp LEFT    &kp UP        &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4              &kp NUMBER_5       &kp NUMBER_6  &kp MINUS
+&kp LEFT_ALT  &kp DEL    &kp PG_UP   &kp DOWN      &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_7              &kp NUMBER_8       &kp NUMBER_9  &kp ASTERISK  &trans
+                                     &kp LEFT_GUI  &trans     &trans      &mo ADJ   &mt RIGHT_SHIFT NUMBER_0  &kp RIGHT_COMMAND
             >;
         };
 
