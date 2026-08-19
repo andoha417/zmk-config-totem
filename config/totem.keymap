@@ -119,10 +119,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp UP          &kp RIGHT_ARROW   &kp LBRC    &kp RBRC   &kp NUMBER_1                  &kp NUMBER_2       &kp NUMBER_3  &kp PLUS
-            &trans          &kp LESS_THAN     &kp DOWN_ARROW  &kp GREATER_THAN  &kp LBKT    &kp RBKT   &kp NUMBER_4                  &kp NUMBER_5       &kp NUMBER_6  &kp MINUS
-&kp ESCAPE  &trans          &kp LEFT_COMMAND  &kp TAB         &trans            &kp LPAR    &kp RPAR   &kp NUMBER_7                  &kp NUMBER_8       &kp NUMBER_9  &kp ASTERISK  &kp KP_EQUAL
-                                              &trans          &trans            &trans      &kp ENTER  &mt RA(RIGHT_SHIFT) NUMBER_0  &kp RIGHT_COMMAND
+            &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp UP            &kp RIGHT_ARROW   &kp LBRC    &kp RBRC   &kp NUMBER_1                  &kp NUMBER_2       &kp NUMBER_3  &kp PLUS
+            &trans          &kp LESS_THAN   &kp DOWN_ARROW    &kp GREATER_THAN  &kp LBKT    &kp RBKT   &kp NUMBER_4                  &kp NUMBER_5       &kp NUMBER_6  &kp MINUS
+&kp ESCAPE  &kp ESCAPE      &trans          &kp LEFT_COMMAND  &kp TAB           &kp LPAR    &kp RPAR   &kp NUMBER_7                  &kp NUMBER_8       &kp NUMBER_9  &kp ASTERISK  &kp KP_EQUAL
+                                            &trans            &trans            &trans      &kp ENTER  &mt RA(RIGHT_SHIFT) NUMBER_0  &kp RIGHT_COMMAND
             >;
         };
 
