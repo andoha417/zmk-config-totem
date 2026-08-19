@@ -52,6 +52,16 @@
             bindings = <&mo 4>;
             key-positions = <32 37>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <5 6>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
