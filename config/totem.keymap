@@ -119,10 +119,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp ESC    &kp LEFT_ARROW  &kp UP          &kp RIGHT_ARROW   &kp LBRC    &kp RBRC   &kp NUMBER_1                  &kp NUMBER_2       &kp NUMBER_3  &kp PLUS
-              &kp LSHFT  &kp LESS_THAN   &kp DOWN_ARROW  &kp GREATER_THAN  &kp LBKT    &kp RBKT   &kp NUMBER_4                  &kp NUMBER_5       &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp DEL    &kp PG_UP       &trans          &kp PG_DN         &kp LPAR    &kp RPAR   &kp NUMBER_7                  &kp NUMBER_8       &kp NUMBER_9  &kp ASTERISK  &kp KP_EQUAL
-                                         &kp LEFT_GUI    &trans            &trans      &kp ENTER  &mt RG(RIGHT_SHIFT) NUMBER_0  &kp RIGHT_COMMAND
+            &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp UP            &kp RIGHT_ARROW   &kp LBRC    &kp RBRC   &kp NUMBER_1                  &kp NUMBER_2           &kp NUMBER_3  &kp PLUS
+            &trans          &kp LESS_THAN   &kp DOWN_ARROW    &kp GREATER_THAN  &kp LBKT    &kp RBKT   &kp NUMBER_4                  &kp NUMBER_5           &kp NUMBER_6  &kp MINUS
+&kp ESCAPE  &kp Q           &trans          &kp LEFT_COMMAND  &kp TAB           &kp LPAR    &kp RPAR   &kp NUMBER_7                  &kp NUMBER_8           &kp NUMBER_9  &kp ASTERISK  &kp KP_EQUAL
+                                            &trans            &trans            &trans      &kp ENTER  &mt RA(RIGHT_SHIFT) NUMBER_0  &kp RS(RIGHT_COMMAND)
             >;
         };
 
@@ -145,10 +145,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp AT  &kp HASH  &kp EXCL  &kp DLLR              &kp PRCNT               &kp CARET     &kp AMPS      &kp QUESTION  &kp SQT     &kp DQT
-        &trans  &trans    &trans    &trans                &trans                  &trans        &trans        &trans        &trans      &trans
-&trans  &trans  &trans    &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &kp PERIOD  &trans   &trans
-                          &trans    &gif                  &kp SPACE               &trans        &kp C_PP      &trans
+        &kp PERCENT  &kp HASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp AT_SIGN             &kp CARET     &kp AMPS      &kp EXCLAMATION  &kp QUESTION  &kp DOLLAR
+        &trans       &trans    &trans            &trans                &trans                  &trans        &trans        &trans           &trans        &trans
+&trans  &trans       &trans    &trans            &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE       &kp PERIOD    &trans      &trans
+                               &trans            &trans                &kp SPACE               &trans        &trans        &trans
             >;
         };
 
@@ -171,10 +171,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACE))  &kp PG_UP      &kp LS(LG(RIGHT_BRACE))  &kp RG(RIGHT_BRACKET)    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &trans                &trans                  &kp PAGE_DOWN  &trans                   &trans                   &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans                &trans                  &trans         &trans                   &trans                   &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                                      &trans         &trans                   &trans                   &trans  &trans  &trans
             >;
         };
 
