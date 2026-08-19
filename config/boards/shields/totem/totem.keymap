@@ -148,7 +148,7 @@
         &kp PERCENT  &kp HASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp AT_SIGN             &kp CARET     &kp AMPS      &kp EXCLAMATION  &kp QUESTION  &kp DOLLAR
         &trans       &trans    &trans            &trans                &trans                  &trans        &trans        &trans           &trans        &trans
 &trans  &trans       &trans    &trans            &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE       &kp PERIOD    &trans      &trans
-                               &trans            &gif                  &kp SPACE               &trans        &trans        &trans
+                               &trans            &trans                &kp SPACE               &trans        &trans        &trans
             >;
         };
 
