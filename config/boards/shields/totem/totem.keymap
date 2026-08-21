@@ -60,7 +60,7 @@
 
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <7 8>;
+            key-positions = <16 15>;
         };
 
         shift+enter {
@@ -135,8 +135,8 @@
 
             bindings = <
             &kp LEFT_ALT    &kp LEFT_ARROW  &kp UP            &kp RIGHT_ARROW   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1                  &kp NUMBER_2           &kp NUMBER_3  &kp PLUS
-            &kp LEFT_SHIFT  &kp LESS_THAN   &kp DOWN_ARROW    &kp GREATER_THAN  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_4                  &kp NUMBER_5           &kp NUMBER_6  &kp MINUS
-&kp ESCAPE  &kp Q           &trans          &kp LEFT_COMMAND  &kp TAB           &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_7                  &kp NUMBER_8           &kp NUMBER_9  &kp ASTERISK  &mt RIGHT_COMMAND EQUAL
+            &kp LEFT_SHIFT  &kp LESS_THAN   &kp DOWN_ARROW    &kp GREATER_THAN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4                  &kp NUMBER_5           &kp NUMBER_6  &kp MINUS
+&kp ESCAPE  &kp Q           &trans          &kp LEFT_COMMAND  &kp TAB           &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_7                  &kp NUMBER_8           &kp NUMBER_9  &kp ASTERISK  &mt RIGHT_COMMAND EQUAL
                                             &trans            &trans            &trans                  &kp RETURN             &mt RA(RIGHT_SHIFT) NUMBER_0  &kp RS(RIGHT_COMMAND)
             >;
         };
@@ -195,10 +195,10 @@
 
         layer_4 {
             bindings = <
-           &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans    &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans
-           &trans  &trans          &mmv MOVE_DOWN  &trans           &trans    &trans  &trans          &msc SCRL_DOWN  &trans           &trans
-&mkp LCLK  &trans  &trans          &mkp MCLK       &trans           &trans    &trans  &trans          &mkp MCLK       &trans           &trans  &mkp RCLK
-                                   &trans          &trans           &trans    &trans  &trans          &trans
+           &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans    &trans  &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_LEFT  &trans
+           &trans  &trans          &mmv MOVE_DOWN  &trans           &trans    &trans  &trans           &msc SCRL_UP    &trans          &trans
+&mkp LCLK  &trans  &trans          &mkp MCLK       &trans           &trans    &trans  &trans           &mkp MCLK       &trans          &trans  &mkp RCLK
+                                   &trans          &trans           &trans    &trans  &trans           &trans
             >;
         };
     };
